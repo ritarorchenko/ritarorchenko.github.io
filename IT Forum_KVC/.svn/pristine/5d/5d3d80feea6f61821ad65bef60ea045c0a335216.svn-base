@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ІТ Форум</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image" href="favicon.png">
+	<meta name="viewport" content="width=device-width">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/script.js"></script>
+	<script src="js/map_uk.js"></script>
+	<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        	ga('create', 'UA-55987284-1', 'auto');
+        	ga('send', 'pageview');
+    </script>
+</head>
+<body>
+	<div class="content fh" id="screen1">
+		<article>
+			<a href="http://uawebchallenge.com"><img src="img/logo.jpg"alt="Web Challenge"></a>
+			<h1>ІТ ФОРУМ</h1>
+			<p><img src="img/pin.png">Київ, Паркова дорога 16а</p>
+			<p><img src="img/calendar-icon.png">29 листопада</p>
+			<p class="button"><a target="_blank" class="yellow-btn buy">Купити квитки</a></p>
+
+		</article>
+	</div>
+	<div class="clr"></div>
+	<div id="menu">
+		<nav>
+			<ul class="menu">
+				<li class="about"><a href="#about">ПРО ФОРУМ<hr noshade></a></li>
+				<li class="program"><a href="#program">ПРОГРАМА<hr noshade></a></li>
+				<li class="speakers"><a href="#speakers">СПІКЕРИ<hr noshade></a></li>
+				<!--<li class="tickets"><a href="#tickets">КВИТКИ<hr noshade></a></li>-->
+				<li class="gallery"><a href="#gallery">ГАЛЕРЕЯ<hr noshade></a></li>
+				<li class="partners"><a href="#partners">ПАРТНЕРИ<hr noshade></a></li>
+				<!--<li class="contacts"><a href="#contacts">КОНТАКТИ<hr noshade></a></li>-->
+				<li class="buy"><a target="_blank">КУПИТИ КВИТКИ</a></li>
+			</ul>
+
+			<!--<ul class="lang">
+				<li><a href="index.html" class="cur-lang">УК</a></li>
+				<!--<li><a href="index_ru.html">РУ</a></li>
+			</ul>-->
+			<div class="clr"></div>
+		</nav>
+	</div>
+	<div class="clr"></div>
+	<div class="content fh" id="about">
+		<article>
+			<h2>ПРО ФОРУМ</h2>
+			<hr noshade>
+			<p>
+				
+			</p>
+			<div class="willbe">
+				<div>
+					<div class="icon">
+						<img src="img/brain.png">
+					</div>
+					<h5>виступи експертів</h5>
+					<span>Всього виступить більше шістнадцяти екпертів. Тридцять хвилин без води та реклами. Підведемо підсумки 2015-го та спрогнозуємо 2016-й. Поговоримо про майбутні тренди та нові технології</span>
+				</div>
+
+				<div>
+					<div class="icon">
+						<img src="img/tolks.png">
+					</div>
+					<h5>Панельна дискусія</h5>
+					<span>СЕО ІТ-компаній розкажуть про плани на 2016-й рік: стратегія та тактика</span>
+				</div>
+
+				<div>
+					<div class="icon">
+						<img src="img/sofa.png">
+					</div>
+					<h5>«диван спікера»</h5>
+					<span>Ви зможете поспілкуватися зі спікером після виступу: задати питання без мікрофону, отримати відповіді майже тет-а-тет</span>
+				</div><br>
+				<div>
+					<div class="icon">
+						<img src="img/openspace.png">
+					</div>
+					<h5>«open space» з партнерами</h5>
+					<span>Познайомитесь з партнерами Web Challenge: найбільш успішні компанії ринку</span>
+				</div>
+
+				<div>
+					<div class="icon">
+						<img src="img/chat.png">
+					</div>
+					<h5>зона для спілкування та&nbsp;знайомств</h5>
+					<span>Учасники форуму: розробники, проджекти, фіналісти чемпіонату</span>
+				</div>
+
+			</div>
+		</article>
+	</div>
+	<div class="content" id="screen7">
+		<!--<h2>Чому варто відвідати Форум:</h2>
+		<p>
+			<img src="img/marc.png">Душевна атмосфера для натхнення та зустрічей<br>
+			<img src="img/marc.png">Говоримо про тренди у ІТ – лише актуальна інформація<br>
+		</p>-->
+		<h2>ІТ Форум - це підсумкова подія року:</h2>
+		<p>
+			<img src="img/marc.png">Підведемо підсумки 2015-го та спрогнозуємо 2016-й - саме час планувати наступний рік<br>
+			<img src="img/marc.png">Поговоримо про тренди в ІТ: розробка та дизайн; мобільні технології та QA; аутсорс та продукти; стартапи та фріланс<br>
+			<img src="img/marc.png">Розкажемо про найактуальніші технології та інструменти<br>
+		</p>
+		<h2>ІТ Форум - місце зустрічі розробників. </h2>
+		<p>
+			Бекенд-розробники цікавляться фронтенд новинками, тестувальники - бекендом,
+			дизайнери - фронтендом. Але не настільки, щоб бігати по різним конференціям.
+			На форумі ви почуєте основне та вгамуєте свій інтерес.<br/>
+			Тут народжуються нові проекти та ідеї.
+			Душевну атмосферу для натхнення та зустрічей гарантуємо
+			<br>
+		</p>
+	</div>
+
+	<div class="clr"></div>
+	<div class="content fh" id="program">
+		<article id="fullprogram" class="program">
+			
+				<div class="pro-title1">
+					<h2>Програма</h2>
+					<hr noshade>
+					<h3>Головна сцена</h3>
+					<hr noshade>
+			<div id="program2">
+				
+			<!-- tab 1 -->
+				<table border="0" id="progtab1">
+					<tbody>
+						<tr>
+							<td>10:00 - 11:00</td>
+							<td><span></span></td>
+							<td>
+								Реєстрація та кава<b></b>
+							</td>
+						</tr>
+
+						<tr class="active">
+							<td>11:00 - 14:00</td>
+							<td><span></span></td>
+							<td>
+								Виступи спікерів <b></b>
+								<p>
+									<br>
+									<strong>11:00-11:30<br>«Тестувальники 2016: що відбувалося та куди все рухається»<br>
+									Артем Биковець</strong><br>
+									<i></i>
+									<strong>Катерина Овеченко</strong>
+									<i></i>
+									<br><br>
+
+									<strong>11:30-12:00<br>«Підсумки  2015 року у світі фронтенда»<br/>
+									Анджей Гужовський</strong><br>
+									<i>Архітектор інтернет-систем і розробник високого рівня.
+										Позаду довгий шлях технологій від демосцени і ігробуду до високонавантажених телекомунікаційних систем. Цінує витончений декаденс кіберпанку, лірику сучасних технологій і персиковий колір.</i>
+									<br><br>
+
+									<strong>12:00-12:30<br>«Анімації - тренд сьогодення і майбутнього веб розробки»<br>
+									Олексій Калюжний</strong><br>
+									<i>Анімації все частіше використовуються для підвищення ефекту "storytelling", що робить досвід користування сайтом більш інтерактивним і цікавим.
+										Однак, ви не можете просто використовувати анімації де завгодно.
+										Розглянемо детально як використовувати анімації з розумом, які технології застосовувати і чому за цим майбутнє</i>
+								     <br><br/>
+
+									<strong>12:30-13:00<br>«Elixir: Next big thing. Maybe»<br>
+									Олександр Труш</strong><br>
+									<i>Elixir - нова функціональна мова, на основі Erlang VM, але з дуже простим синтаксисом, під великим впливом Ruby, активно захоплює голови програмістів. Чим вона така класна? Що вона може робити краще? І чому це може бути Next big Thing.</i>
+									<br><br>
+
+									<strong>13:00-13:30<br>«Ринок стартапів: підсумки року та прогнози на майбутнє»</strong><br>
+                                    <strong>Андрій Колодюк</strong><br>
+                                    <i></i><br/>
+
+                                    <strong>13:30-14:00<br>iOS та Android : що сталося в 2015 і як це вплине на 2016 рік в перспективі створення додатків<br/></strong>
+                                    <strong>Макс Іцкович</strong><br>
+                                    <i>У 2015 році дві протиборчі  платформи, здається, остаточно сформували і поділили ринок мобільних пристроїв. Продовжилися освоєння ринку wearables, масовий вихід платформ в пристрої формату "домашній телевізор", додатки почали вчитися взаємодіяти між собою. Augmented reality стала масовою і комерційною, китайський месенджер став лідируючою платіжною системою по мікротранзакціях і почав видавати кредити. Запрацювала перша в світі система колективного кредитування. А ще, в Україні, нарешті, з'явився 3G.
+										Короткий огляд ключових подій в розробці додатків цього року, і прогноз по додатках року прийдешнього. Чого нам чекати, і коли це дійде до України.
+									</i><br><br>
+
+									<!-- <strong>12:00-12:25<br>«Чари комунікації в житті інженерів»</strong><br><br>
+                                    Олександр Кузняк<br>
+                                    <i>Дамо відповідь на питання: чому в одних все виходить, а мені <br>не підвищують ЗП хоча я пашу більше всіх? Про чарівників комунікації – хто вони такі та чому варто у них повчитися.Поговоримо про: комунікація у команді, з керівництвом та  комунікацію <br>зi зовнішнім світом.</i><br><br><br>
+
+                                    <strong>12:30-12:55<br>«Історія створення маленького стартапу у великій компанії. Яндекс.Заправки»</strong><br><br>
+                                    Дмитро Мельник<br>
+                                    <i>Менеджер з продуктового маркетингу компанії Яндекс.Україна. Займався просуванням мобільних додатків, зараз відповідає <br>за геоінформаційні продукти і мобільні додатки в Україні. Раніше працював у найбільшому мобільному операторі України.</i>	<br><br>-->
+								</p>
+							</td>
+						</tr>
+					
+						
+						<tr>
+							<td>14:00 - 15:00</td>
+							<td><span></span></td>
+							<td>
+								Перерва на обід <b></b>
+								
+								<!--<p>
+									<strong>«Навчання молодих кадрів. Методики та підходи»</strong><br><br>
+									<i>Михайло Завилов, Іван Печерський, Олександр Пашков,<br>Тетяна Скорик, Сергій Печенізький, Любомир Бойчук,<br>Дарія Горницька, Михайло Завилов</i>
+								</p>-->
+							</td>
+						</tr>
+
+						<tr class="active">
+							<td>15:00 - 16:00</td>
+							<td><span></span></td>
+							<td>
+								Виступи спікерів <b></b>
+								<p>
+									<strong>15:00-16:30<br>Ринок фріланса в Україні: глобальна тенденція чи український феномен?<br/>
+									Катерина Божкова</strong><br>
+									<i>Country Manager Ukraine, Upwork. </i><br/><br/>
+
+									<strong>15:30-16:00<br>«Design process for starters»<br>
+									Максим Ткачук</strong><br>
+									<i>Establish clear and fast design process to work on essentials (research, iterative design and user testing)</i><br/><br/>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>16:00 - 17:00</td>
+							<td><span></span></td>
+							<td>
+								Панельна дискусія з СЕО ІТ-компаній<b></b>
+								<p><strong>Плани ІТ компаній на 2016-й рік: стратегія й тактика</strong></p>
+							</td>
+						</tr>
+						<tr>
+							<td>17:00 - 19:30</td>
+							<td><span></span></td>
+							<td>
+								Нагородження переможців UA Web Challenge VIII та Mobile Challenge <b></b>
+								<!--<p> <br>
+								
+                                    <strong>16:00-16:25<br>«Demo від переможців всесвітнього конкурсу доповненої реальності»</strong><br><br>
+                                    <i>Intel  Real Sense</i><br><br>
+
+                                    <strong>16:30-16:55<br>«Тестувальник в Agile середовищі: відмінність суворих реалій від книжкової теорії»</strong><br><br>
+									Артем Биковець<br>
+									<i>Займає позицію Scrum Master в компанії BetLab, а також Founder/CEO/IT Coach в StartIT</i><br><br>
+                                    
+                                    <strong>17:00-17:25<br>«Мовчання дизайнерів»</strong><br><br>
+									Ольга Шевченко<br>
+									<i>Хочеш бути кращим? Хочеш щоб про тебе заговорив увесь світ? Хочеш отримувати багато грошей? А ти комусь сказав про свої бажання? Чи так і будеш мовчати? А може пора почати проявляти себе як особистість? Жорстко, чесно, чітко, дієво, про зараз, про мрії та реальність, тільки конкретика, тільки про тебе!</i><br><br>
+									
+									<strong>17:30-17:55<br>«BDSM в стартапах»</strong><br><br>
+									Олександр Труш<br>
+									<i>Founder Adtena.com, ex full-stack contract developer Google,<br> ex full-stack developer DOU.UA </i>
+                                   	<br><br>
+                                    
+									<!--<strong>18:00-18:25<br>«Offline first. Автономність насамперед або як зробити користувачеві приємно»</strong><br><br>
+									Антон Нємцев <br>
+									<i>Інтернет з'єднання не завжди швидке і надійне. На сьогоднішній день, коли 3G в Україні ще, фактично, недоступний, проблеми<br>зі з'єднанням виникають у 100% користувачів. Offline first дозволяє зробити роботу з вашим сайтом або додатком менш болючою і стати ще одною, невеликою, але важливою, конкурентною перевагою.</i><br><br>
+									<br>
+									<strong>18:30-19:30<br>«Disrupting with Digital Services»</strong><br><br>
+									Олександра Попова <br>
+									<i>SDL plc, SDL Tridion, Амстердам</i><br><br>
+									<br><br>
+								</p>-->
+							</td>
+						</tr>
+
+						<!--<tr>
+							<td>18:00</td>
+							<td><span></span></td>
+							<td>
+								After-party <b></b>
+							</td>
+						</tr>-->
+					</tbody>
+				</table>
+			
+				<div class="clr"></div>
+
+					
+					<!--<a href="" class="whitebtn">скачать программу</a>
+					<a href="#speakers" class="down" ></a>
+			
+				<a class="show" id="show2">Програма з таймінгом</a>
+				<a href="" class="whitebtn">Завантажити програму</a>-->
+			</div>
+		   
+		</article>
+	</div>
+
+
+	<div class="clr"></div>
+	<div class="content" id="screen4">
+		<h2>Купити квитки зараз</h2>
+		<p>
+			Відвідай традиційний захід від Web Challenge<br>
+            Дізнайся більше про IT ринок від наших кращих експертів<br>
+            Надихнись досвідом інших та поділись власним
+		</p>
+		<a target="_blank" class="yellow-btn buy">Купити квитки</a>
+	</div>
+
+	<div class="clr"></div>
+
+
+	<div class="content fh" id="speakers">
+		<article>
+			<h2>СПІКЕРИ</h2>
+			<hr noshade>
+			
+			<!-- tab 1 -->
+	        <div class="tab1 tab">
+
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/kolodiuk.png">
+						<h4>Андрій Колодюк</h4>
+						<p>Ринок стартапів: підсумки року та прогнози на майбутнє</p>
+
+					</div>
+					<div class="aboutSpiker"><h5>Андрій<br>Колодюк</h5>Входить в Топ-5 найвпливовіших людей українського ринку стартапів. Founder & Managing Partner в Aventures. Голова Асоціації венчурного капіталу та прямих інвестицій Ukrainian Venture capital & Private equity association</div>
+				</div>
+
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/tkachuk.png">
+						<h4> Максим Ткачук</h4>
+						<p>Design process for starters</p>
+
+					</div>
+					<div class="aboutSpiker"><h5>Максим<br>Ткачук</h5>Дизайн-инженер в worldapp <br> Має 8 років досвіду роботи з frog, macpaw [devmate], vox player [loop mvp] , wargaming [wotg].<br/> Інтереси: apple ibeacons/watch/carplay, індустріальний дизайн, сучасна архітектура, судоку, футбол.</div>
+				</div>
+
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/bykovets.png">
+						<h4>Артем Биковець</h4>
+						<p>Тестувальники 2016: що <br/>відбувалося та куди все рухається</p>
+
+					</div>
+					<div class="aboutSpiker"><h5>Артем<br>Биковець</h5>Founder/CEO/IT Coach в StartIT training center,<br> практикуючий Agile Project Manager та Scrum Master <br/>Артем має більше ніж 7 років досвіду в ІТ, 2,5 роки досвіду викладання власної програми на курсах.<br/>Best professional in Quality Assurance 2015 by Ukrainian IT Awards.</div>
+				</div>
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/ovechenko.png">
+		      			<h4>Катерина Овеченко</h4>
+						<p>Тестувальники 2016: що <br/>відбувалося та куди все рухається</p>
+		      		</div>
+	      			<div class="aboutSpiker"><h5>Катерина<br>Овеченко</h5>QA Coordinator, Itera.<br>В ІТ вже більше 6 років. Фахівець у галузі тестування та забезпечення якості, останні роки фокусується на тестуванні безпеки.
+						Виступає на відомих конференціях (SQA Days, QA Fest та інші), суддя UA Web Challenge.</div>
+	      		</div>
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/itskovich.png">
+						<h4>Макс Іцкович</h4>
+						<p>iOS та Android : що сталося в 2015 і як це вплине на 2016 рік в перспективі створення додатків</p>
+					</div>
+					<div class="aboutSpiker"><h5>Макс<br>Іцкович</h5>СЕО Mobindustry Corp., яка займається розробкою програмного забезпечення для мобільних, запустив кілька стартапів, координує співтовариство ІТ підприємців й ІТ кластер в  Дніпропетровську.</div>
+				</div>
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/nemcev.png">
+						<h4>Антон Нємцев</h4>
+						Автономність насамперед
+					</div>
+					<div class="aboutSpiker"><h5>Антон<br>Нємцев</h5>Незалежний фронтенд-розробник протягом 15 років. Творець та редактор журналу «Frontender Magazine». Представник «Веб-стандартів» в Україні. Спікер на міжнародних і локальних конференціях, суддя чемпионату UA Web Challenge.</div>
+				</div>
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/kalujnui.png">
+		      			<h4>Олексій Калюжний</h4>
+						<p>Анімації - тренд сьогодення і майбутнього веб розробки</p>
+
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Олексій<br>Калюжний</h5>Front-end розробник з досвідом понад 6 років, WordPress ніндзя, провідний викладач в Beetroot Academy, неоднократний фіналіст та переможець всеукраїнського чемпіонату з веб розробки UA Web Challenge. </div>
+	      		</div>
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/guzhovskyy.png">
+						<h4>Анджей Гужовський</h4>
+						<p>Підсумки 2015 у світі фронтенда</p>
+					</div>
+					<div class="aboutSpiker"><h5>Анджей<br>Гужовський</h5>Архітектор інтернет-систем і розробник високого рівня. <br>Позаду довгий шлях технологій від демосцени і ігробуду до високонавантажених телекомунікаційних систем. Цінує витончений декаденс кіберпанку, лірику сучасних технологій і персиковий колір.</div>
+				</div>
+
+                
+                <div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/bozhkova.png">
+		      			<h4>Катерина Божкова</h4>
+						<p>Ринок фріланса в Україні: глобальна тенденція чи український феномен?</p>
+
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Катерина <br>Божкова</h5>Country Manager Ukraine, Upwork. <br></div>
+	      		</div>
+
+
+				<div class="speaker">
+					<div class="prevSpikers">
+						<img src="img/speakers/trysh.png">
+						<h4>Олександр Труш</h4>
+						<p>Elixir: Next big thing. Maybe</p>
+					</div>
+					<div class="aboutSpiker"><h5>Олександр<br>Труш</h5>Founder Adtena.com,<br>ex full-stack contract developer Google, ex full-stack developer DOU.UA  </div>
+				</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/gornitskaya.png">
+		      			<h4>Дар'я Горницька</h4>
+		      			Панельна дискусія
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Дар'я<br>Горницька</h5>Генеральний директор Astound Commerce. <br/> Більше 12 років в IT, 8 років в е-сommerce. Пройшла шлях від розробника й Team Lead, до Resource Planning Manager і General Manager. Має ступінь MBA. Учасник панельних дискусій і доповідач на конференціях</div>
+	      			</div>
+
+				<div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="img/speakers/boychuk.png">
+                      <h4>Любомир Бойчук</h4>
+					  Панельна дискусія
+                  </div>
+                  <div class="aboutSpiker"><h5>Любомир<br>Бойчук</h5>Віце-Президент,<br>Infopulse</div>
+                  </div>
+
+				<div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="img/speakers/kuzmenko.png">
+                      <h4>Володимир Кузьменко</h4>
+                  Панельна дискусія
+                  </div>
+                  <div class="aboutSpiker"><h5>Володимир<br>Кузьменко</h5> Deputy Chief Technology Officer компанії NIX Solutions, експерт із методологій управління проектами, майстер стратегічного аналізу та вправний антикризовий менеджер. У вільний від вирішення надважливих питань час виступає експертом в освітніх проектах та читає лекції студентам на запрошення харківських ВНЗ</div>
+                  </div>
+
+				<!--<div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="img/speakers/pechenizhskiy.jpg">
+                      <h4>Сергій Печенізький</h4>
+                  «Навчання молодих кадрів. Методики та підходи»
+                  </div>
+                  <div class="aboutSpiker"><h5>Сергій<br>Печенізький</h5>Керівник офісу <br>з управління програмами <br>і технічними тренінгами</div>
+                  </div>
+
+                <div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="img/speakers/skorik.jpg">
+                      <h4>Тетяна Скорик</h4>
+                  «Навчання молодих кадрів. Методики та підходи»
+                  </div>
+                  <div class="aboutSpiker"><h5>Тетяна<br>Скорик</h5>Acting Head <br>of Retention and Career Development at Ciklum </div>
+                  </div>
+
+                  <div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="img/speakers/boychuk.jpg">
+                      <h4>Любомир Бойчук</h4>
+                  «Навчання молодих кадрів. Методики та підходи»
+                  </div>
+                  <div class="aboutSpiker"><h5>Любомир<br>Бойчук</h5>Vice president of sales<br>at Infopulse </div>
+                  </div>
+
+                <div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="http://conference.uawebchallenge.com/img/speakers/gornitska.jpg">
+                      <h4>Дарія Горницька</h4>
+                  «Навчання молодих кадрів. Методики та підходи»
+                  </div>
+                  <div class="aboutSpiker"><h5>Дарія<br>Горницька</h5>Генеральний директор Astound Commerce </div>
+                  </div>
+
+                  <div class="speaker">
+                  <div class="prevSpikers">
+                      <img src="img/speakers/zavilov.jpg">
+                      <h4>Михайло Завилов</h4>
+                  «Навчання молодих кадрів. Методики та підходи»
+                  </div>
+                  <div class="aboutSpiker"><h5>Михайло<br>Завилов</h5>HR-Директор Майкрософт Україна</div>
+                  </div>-->
+
+	  		<!-- end tab 1 -->
+		</article>
+	</div>
+
+	<div class="content fh" id="tickets">
+		<article>
+			<!--<div class="side-badge">
+				<img src="img/badgeUA_standard.png"id="leftbage">
+			</div>-->
+			<div class="cost">
+				<h2>Квитки</h2>
+				<hr noshade>
+				<table border="0" class="cost-list">
+					<tbody>
+						<tr class="cl-header">
+							<td></td>
+							<!--<td>
+							</td>-->
+							<td><img src="img/dots.png"><br>
+								<b>Standard<br/></b>
+								<p></p> <br/></td>
+
+<td></td>
+						<td><img src="img/dots_white1.png"><br>
+							<b>Premium</b>
+							<p class="description">Отримаєте доступ до преміум лаундж зони поруч зі сценою: фрукти, масаж, напої.
+									Отримаєте на пошту ексклюзивну збірку матеріалів з презентацій </p>
+							</td>
+							<td></td>
+						</tr>
+						<tr id="third-cost">
+
+							<td rowspan="4"><img src="img/bedgel.jpg" align="left"></td>
+<!--<td></td>-->
+							<td><span class="cost-num active"></span> <hr noshade></td>
+							<td><p class="date-cost active"><br><span></span></p></td>
+							<td><span class="cost-num active"></span><hr noshade></td>
+							<td rowspan="4"><img src="img/bedger.jpg"></td>
+
+						</tr>
+						<!--<tr id="third-cost">
+							<!--<td></td>-->
+							<!--<td><span class="cost-num active">65</span>$ <hr noshade></td>
+							<td><p class="date-cost active">до<br><span>23.11</span></p></td>
+							<td><span class="cost-num active">105</span> $<hr noshade></td>
+							<!--<td></td>-->
+
+                       <!-- </tr>-->
+						<tr id="third-cost">
+							<!--<td></td>-->
+							<td><span class="cost-num active">75</span>$ <hr noshade></td>
+							<td><p class="date-cost active">з<br><span>24.11</span></p></td>
+							<td><span class="cost-num active">125</span> $<hr noshade></td>
+							<!--<td></td>-->
+
+						</tr>
+						<tr>
+							<!--<td></td>-->
+							<td><a class="yellow-tb tiket-buy buy">Купити квитки</a></td>
+							<td></td>
+							<td><a class="white-tb tiket-buy buy">Купити квитки</a></td>
+							<!--<td></td>-->
+
+
+						</tr>
+				</tbody>
+				</table>
+			</div>
+			<!--<div class="side-badge">
+				<img src="img/badge_premium.png" align="right" id="rightbage">
+			</div>-->
+		</article>
+	</div>
+
+
+
+	<div class="content fh" id="gallery">
+		<article>
+			<h2>галерея</h2>
+			<hr noshade>
+			<ul class="albswitcher">
+				<li class="alb1 alb activalb" id="b1">
+					it форум 2014
+				</li>
+				<li class="alb2 alb activalb" id="b2">
+					it форум 2015
+				</li>
+
+			</ul>
+			<div id="alb1" class="alb"></div>
+			<div id="alb2" class="alb"></div>
+			<div class="clr"></div>
+
+
+
+			<a class="whitebtn whitebtn_ua">переглянути всі фото</a>
+		</article>
+	</div>
+	<div id="prev">
+		<div class="imgblock">
+			<a id="back"></a>
+			<img />
+			<a id="next"></a>
+			<a id="close"></a>
+		</div>
+	</div>
+	<div id="widget">
+		<iframe src="widget_uk.html" frameborder="0" class="widgetform"></iframe>
+		<!--<a href="http://2event.com/events/188224" target="_blank" class="yellow-btn buy goo">Використати промо-код</a>-->
+	</div>
+
+<!--<div class="video">
+	<article>
+	<h2>Відео</h2>
+	<hr noshade>
+	<iframe width="854" height="480" src="https://www.youtube.com/embed/aXBGMd3d23Y" frameborder="0" allowfullscreen></iframe>
+	</article>
+</div>-->
+
+
+
+	<div class="content" id="partners" >
+		<article>
+			<h2>партнери</h2>
+			<hr noshade>
+
+						<div class="partners-list">
+					</div>
+			<h3>Інформаційні партнери</h3>
+			<div class="partners-list">
+			<a href="http://growthup.com/ua" target="_blank"><img src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/growup.png"></a>
+				<a href="http://itvdn.com/ru" target="_blank"><img style="width:120px; margin-top:20px;" src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/ITVDN(ColorBlackText).png"></a>
+
+			</div>
+			<h3>Конференц-партнер</h3>
+			<div class="partners-list">
+				<a href="http://http://mamahohotala.com.ua/"target="_blank"><img src="img/partners/mamaxoxotala.png"></a>
+			</div>
+
+		</article>
+	</div>
+	<div id="contacts" class="content" style="height: 100%;"></div>
+	<footer>
+		<ul>
+			<li><a href="http://uawebchallenge.com" target="_blank">WebChallenge</a></li>
+			<li>
+				<a href="https://twitter.com/uawebchallenge" target="_blank" id="tw"></a>
+				<a href="https://vk.com/uawebchallenge" target="_blank" id="vk"></a>
+				<a href="https://www.facebook.com/uawebchallenge" target="_blank" id="fb"></a>
+			</li>
+		</ul>
+	</footer>
+
+
+<!--	<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1009270801;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1009270801/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript> -->
+</body>
+</html>

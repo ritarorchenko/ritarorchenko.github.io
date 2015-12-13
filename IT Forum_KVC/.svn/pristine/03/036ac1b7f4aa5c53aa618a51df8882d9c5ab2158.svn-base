@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>IT-Forum</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image" href="favicon.png">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/script.js"></script>
+	<script src="js/map_ru.js"></script>
+	<script>
+             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+             ga('create', 'UA-55987284-1', 'auto');
+             ga('send', 'pageview');
+    </script>
+</head>
+<body>
+	<div class="content fh" id="screen1">
+		<article>
+			<a href="http://uawebchallenge.com"><img src="img/logo.png" alt="UA Web Challenge"></a>
+			<h1>ІТ ФОРУМ</h1>
+			<p><img src="img/pin.png">Киев</p>
+			<p><img src="img/calendar-icon.png">29 ноября</p>
+			<a target="_blank" class="yellow-btn buy">КУПИТЬ БИЛЕТ</a>
+		</article>
+	</div>
+	<div class="clr"></div>
+	<div id="menu">
+		<nav>
+			<ul class="menu">
+				<li class="about"><a href="#about">О ФОРУМЕ<hr noshade></a></li>
+				<li class="program"><a href="#program">ПРОГРАММА<hr noshade></a></li>
+				<li class="speakers"><a href="#speakers">СПИКЕРЫ<hr noshade></a></li>
+				<li class="tickets"><a href="#tickets">БИЛЕТЫ<hr noshade></a></li>
+				<li class="gallery"><a href="#gallery">ГАЛЕРЕЯ<hr noshade></a></li>
+				<li class="partners"><a href="#partners">ПАРТНЕРЫ<hr noshade></a></li>
+				<li class="contacts"><a href="#contacts">КОНТАКТЫ<hr noshade></a></li>
+			</ul>
+			<a target="_blank" class="yellow-btn buy">КУПИТЬ БИЛЕТ</a>
+			<ul class="lang">
+				<li><a href="index.html">УК</a></li>
+				<li><a href="index_ru.html" class="cur-lang">РУ</a></li>
+			</ul>
+			<div class="clr"></div>
+		</nav>
+	</div>
+	<div class="clr"></div>
+	<div class="content fh" id="about">
+		<article>
+			<h2>О ФОРУМЕ</h2>
+			<hr noshade>
+			<p>
+			
+			</p>
+			<div class="willbe">
+				<div>
+					<img src="img/brain.png">
+					<h5>Выступления экспертов</h5>
+					<span>Узнайте о самом актуальном:<br>45 минут про основное. Без воды<br>и рекламы</span>
+				</div>
+				<div>
+					<img src="img/tolks.png">
+					<h5>lightning talks</h5>
+					<span>Найдите единомышленников<br>&nbsp;<br>&nbsp;</span>
+				</div>
+				<div>
+					<img src="img/sofa.png">
+					<h5>«диван спикера»</h5>
+					<span>Пообщайтесь со спикером после его выступления<br>&nbsp;</span>
+				</div><br>
+				<div>
+					<img src="img/openspace.png">
+					<h5>«open space» с партнерами</h5>
+					<span>Познакомтесь с партнёрами<br>Web Challenge <br>&nbsp;</span>
+				</div>
+				<div>
+					<img src="img/chat.png">
+					<h5>зона для общения и знакомств</h5>
+					<span>Пообщайтесь с коллегами<br>и единомышленниками: мы организуем замечательные условия</span>
+				</div>
+				
+			</div>
+		</article>
+	</div>
+	<div class="content" id="screen7">
+		<h2>Почему стоит посетить Форум</h2>
+		<p>
+			<img src="img/marc.png">Выступления больше похожи на доклады TEDx<br>
+       		<img src="img/marc.png">Душевная атмосфера для вдохновения и встреч<br>
+			<img src="img/marc.png">Говорим о трендах в ИТ - только актуальная информация<br>
+		</p>
+	</div>
+	<div class="clr"></div>
+<div class="content fh" id="program">
+		<article id="fullprogram" class="program">
+	
+				<div class="pro-title1">
+					<h2>Программа</h2>
+					<hr noshade>
+			<div id="program2">
+
+			<!-- tab 1 -->
+				<table border="0" id="progtab1">
+					<tbody>
+						<tr >
+							<td>09:00 - 10:00</td>
+							<td><span></span></td>
+							<td>
+								Регистрация <b></b>
+							</td>
+						</tr>
+						
+						<tr class="active">
+							<td>10:00 - 12:55</td>
+							<td><span></span></td>
+							<td>
+								Выступления спикеров <b></b>
+								<p> 
+		      			      		<br><br>	
+	      			                <strong>10:00-10:25<br>«Коварные советы по верстке»</strong><br><br>
+									Юрий Артюх<br>
+									<i>Представитель украинского крыла «Web Standards Group», совладелец учебного центра Smartme.com.ua</i><br/><br/>
+                                    
+                                    <strong>10:30-11:00<br>«Различные этапы карьеры в ИТ: как развиваться и расти?»</strong><br><br>
+									Александр Жебряков<br>
+									<i>На основе собственной истории карьерного развития от Джуна-программиста до старшего менеджера я хочу поделиться основными ошибками, которые замедляли мое развитие, а также рассказать<br>о тех умениях и качествах людей в ИТ, которые больше всего ценятся и, соответственно, влияют на наш рост.</i><br/><br/>
+
+									<strong>11:00-11:25<br>«Как построить IOT решение на Windows и Azure»</strong><br><br>
+									Сергей Поплавский<br>
+									<i>IoT устройства и облачные сервисы дают уникальную возможность создавать новые решения, которые раньше были не возможны.<br>В рамках доклада мы рассмотрим, как построить простой сервис<br>на Windows 10 @ IoT Raspberry Pi 2 и Azure для сбора данных.</i><br/><br/>
+
+                                    <strong>11:30-11:55<br>«AOP for web performance monitoring»</strong><br><br>
+									Яна Михайленко<br>
+									<i>Я хочу рассказать о аспектно-ориентированном программировании<br> и о том, как при помощи него можно построить свою систему preformance monitoring для web java приложений.</i><br><br>
+
+									<strong>12:00-12:25<br>«Волшебство коммуникации в жизни инженеров»</strong><br><br>
+									Александр Кузняк<br>
+									<i>Дадим ответ на вопрос: почему в одних все получается,<br> а мне не повышают ЗП хотя я пашу больше всех?О волшебниках коммуникации - кто они такие и почему стоит у них поучиться.Поворим о: коммуникация в команде, <br>с руководством и коммуникацию с внешним миром.</i><br><br>
+
+									<strong>12:30-12:55<br>«История создания маленького стартапа в большой компании. Яндекс.Заправки»</strong><br><br>
+									Дмитрий Мельник<br>
+									<i>Менеджер по продуктовому маркетингу компании Яндекс.Украина.Занимался продвижением мобильных приложений, сейчас отвечает за геоинформационные продукты и мобильные приложения в Украине. Раньше работал в крупнейшем мобильном операторе Украины.</i><br><br>
+									
+							      
+														
+								</p>
+							</td>
+						</tr>
+						
+						<tr class="active">
+							<td>13:00 - 14:00</td>
+							<td><span></span></td>
+							<td>
+								Панельная дискуссия <b></b>
+								<p>
+									<strong>«Обучение молодых кадров. Методики и подходы»</strong><br><br>
+									<i>Михаил Завылов, Иван Печерский, Александр Пашков,<br>Татьяна Скорик, Сергей Печенежский, Любомир Бойчук<br>Дарья Горницкая, Михаил Завылов</i>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>14:00 - 15:00</td>
+							<td><span></span></td>
+							<td>
+								Обед
+							</td>
+						</tr>
+						<tr>
+							<td>14:30 - 15:30</td>
+							<td><span></span></td>
+							<td>
+								Lighting talks <b></b>
+							</td>
+						</tr>
+						<tr class="active">
+							<td>15:00 - 16:00</td>
+							<td><span></span></td>
+							<td>
+								Open space <b></b>
+								<p>GlobalLogic, Ciklum, SDL, Astound, Infopulse</p>
+							</td>
+						</tr>
+						<tr class="active">
+							<td>16:00 - 19:30</td>
+							<td><span></span></td>
+							<td>
+								Выступления спикеров <b></b>
+								<p>
+                                    <strong>16:00-16:25<br>«Demo от победителей всемирного конкурса дополненной реальности»</strong><br><br>
+                                    <i>Intel  Real Sense</i><br><br>
+								  	
+								  	<strong>16:30-16:55<br>«Тестировщик в Agile среде: отличие суровых реалий<br>от книжной теории»</strong><br><br>
+									Артем Быковец<br>
+									<i>Scrum Master в компании BetLab, а также Founder/CEO/IT Coach <br>в StartIT.</i><br><br>						
+								    <strong>17:00-17:25<br>«Молчание дизайнеров»</strong><br><br>
+									Ольга Шевченко<br>
+									<i>Хочешь быть лучшим? Хочешь чтобы о тебе заговорил весь мир? Хочешь получать много денег? А ты кому-то сказал о своих желаниях? Или так и будешь молчать? А может пора начать проявлять себя как личность? Жестко, честно, четко, действенно, про сейчас, про мечты и реальность, только конкретика, только<br> про тебя!</i><br><br>
+									
+									<strong>17:30-17:55<br>«BDSM в стартапах»</strong><br><br>
+									Александр Труш<br>
+									<i>Founder Adtena.com, ex full-stack contract developer Google,<br>ex full-stack developer DOU.UA </i><br><br><br>  
+
+									<strong>18:00-18:25<br>«Offline first. Автономность прежде всего или как сделать пользователю приятно»</strong><br><br>
+									Антон Немцев <br>
+									<i>Интернет соединение не всегда быстрое и надежное.<br> На сегодняшний день, когда 3G в Украине ещё, фактически, недоступен, проблемы с соединением возникают у 100% пользователей. Offline first позволяет сделать работу с вашим сайтом или приложением менее болезненной и стать ещё одним, небольшим, но важным, конкурентным преимуществом.</i><br><br>
+                                    
+									<strong>18:30-19:30<br>«Disrupting with Digital Services»</strong><br><br>
+									Александра Попова <br>
+									<i>SDL plc, SDL Tridion, Амстердам</i><br><br>
+									<br><br>
+								</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td>19:30</td>
+							<td><span></span></td>
+							<td>
+								Награждение победителей чемпионата<br> UA Web Challenge VII<b></b>
+							</td>
+						</tr>
+						<!--<tr>
+							<td>18:00</td>
+							<td><span></span></td>
+							<td>
+								After-party <b></b>
+							</td>
+						</tr>-->
+					</tbody>
+				</table>
+			
+			
+				<div class="clr"></div>
+				<!--<a class="show" id="show2">програма по времени</a>
+				<a href="" class="whitebtn">скачать программу</a>-->
+			</div>
+		</article>
+	</div>
+	<div class="clr"></div>
+	<div class="content" id="screen4">
+		<h2>Купить билет на форум прямо сейчас</h2>
+		<p>
+			Посетите традиционное мероприятие от Web Challenge<br/>
+            Узнай больше об IT рынке от наших лучших экспертов<br/>
+            Вдохновитесь опытом других и делитесь собственным<br/>
+		</p>
+		<a target="_blank" class="yellow-btn buy">Купить билет</a>
+	</div>
+	<div class="clr"></div>
+	<div class="content fh" id="speakers">
+		<article>
+			<h2>СПИКЕРЫ</h2>
+			<hr noshade>
+			<ul class="tablinks">
+				<li id="tab1" class="tabactiv">спикеры</li>
+				
+			</ul>
+			<!-- tab 1 -->
+	        <div class="tab1 tab">
+	        	
+	      		
+	      			      		
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/kuznyak.jpg">
+		      			<h4>Александр Кузняк</h4>
+		      			Волшебство коммуникации в жизни инженеров
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Александр<br>Кузняк</h5>QA Consultant <br>and Practice Leader, Ciklum</div>
+	      		</div>
+	      		
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/Shevchenko.png">
+		      			<h4>Ольга Шевченко</h4>
+		      			Молчание дизайнеров
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Ольга<br>Шевченко</h5>Арт-директор студии Vintage. Автор многих работ со званием <br>Site of the day </div>
+	      		</div>
+
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="http://conference.uawebchallenge.com/img/speakers/trysh.jpg">
+		      			<h4>Александр Труш</h4>
+		      			BDSM в стартапах
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Александр<br>Труш</h5>Founder Adtena.com,<br>ex full-stack contract developer Google, ex full-stack developer DOU.UA  </div>
+	      		</div>
+
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="http://conference.uawebchallenge.com/img/speakers/artuh.png">
+		      			<h4>Юрий Артюх</h4>
+		      			Коварные советы по верстке
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Юрий<br>Артюх</h5>Представитель украинского крыла «Web Standards Group», совладелец учебного центра Smartme.com.ua </div>
+	      		</div>
+	      		
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="http://conference.uawebchallenge.com/img/speakers/mihaylenko.jpg">
+		      			<h4>Яна Михайленко</h4>
+		      			AOP for web performance monitoring
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Яна<br>Михайленко</h5>Lead Java Engineer <br>at SmartBear, Java coach <br>at 10per. Byte code addicted developer. Believes that java development is not just web development but also machine learning, natural language processing<br> and algorithms.</div>
+	      		</div>
+
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/nemcev.png">
+		      			<h4>Антон Немцев</h4>
+		      			Offline first. Автономность прежде всего или как сделать пользователю приятно
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Антон<br>Нємцев</h5>Независимый разработчик, <br> с опытом около 14 лет, докладчик на тематических конференциях, представитель ВСТ <br>в Украине, основатель журнала Frontender Magazine, каводуй, забредун, free hugs.</div>
+	      		</div>
+
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="http://conference.uawebchallenge.com/img/speakers/bykovec.jpg">
+		      			<h4>Артем Быковец</h4>
+		      		Тестировщик в Agile среде: отличие суровых реалий <br>от книжной теории	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Артем<br>Быковец</h5>Scrum Master в компании BetLab, а также Founder/CEO/IT Coach<br>в StartIT.</div>
+	      		</div>
+
+	      		<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/melnik.jpg">
+		      			<h4>Дмитрий Мельник</h4>
+		      		История создания маленького стартапа в большой компании. Яндекс.Заправки	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Дмитрий<br>Мельник</h5>Менеджер<br> по продуктовому маркетингу компании Яндекс.Украина.Занимался продвижением мобильных приложений, сейчас отвечает <br>за геоинформационные продукты и мобильные приложения в Украине.</div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/popova.jpg">
+		      			<h4>Александра Попова</h4>
+		      			Disrupting with Digital Services
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Александра<br>Попова</h5>SDL plc, SDL Tridion, Амстердам</div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="http://conference.uawebchallenge.com/img/speakers/poplavskyi.jpg">
+		      			<h4>Сергей Поплавский</h4>
+		      			Как построить IOT решение<br>на Windows и Azure.
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Сергей<br>Поплавский</h5>Технический специалист Microsoft Azure, «Майкрософт Украина» </div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/zherebiakov.jpg">
+		      			<h4>Александр Жебряков</h4>
+		      		Различные этапы карьеры в ИТ: как развиваться и расти?	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Александр<br>Жебряков</h5>Senior Manager<br>at Ciklum Consulting</div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/Ivan.png">
+		      			<h4>Иван Печерский</h4>
+		      		«Обучение молодых кадров. Методики и подходы»	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Иван<br>Печерский</h5>Functional Manager. Руководитель образовательных программ</div>
+	      			</div>
+                    
+                    <div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/pashkov.jpg">
+		      			<h4>Александр Пашков</h4>
+		      		«Обучение молодых кадров. Методики и подходы»	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Александр<br>Пашков</h5>Development менеджер SDL</div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/pechenizhskiy.jpg">
+		      			<h4>Сергей Печенежский</h4>
+		      		«Обучение молодых кадров. Методики и подходы»	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Сергей<br>Печенежский</h5>Руководитель офиса<br>по управлению программами <br>и техническими тренингами</div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/skorik.jpg">
+		      			<h4>Татьяна Скорик</h4>
+		      		«Обучение молодых кадров. Методики и подходы»	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Татьяна<br>Скорик</h5>Acting Head <br>of Retention and Career Development </div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/boychuk.jpg">
+		      			<h4>Любомир Бойчук</h4>
+		      		«Обучение молодых кадров. Методики и подходы»	
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Любомир<br>Бойчук</h5>Vice president of sales<br>at Infopulse </div>
+	      			</div>
+
+	      			  <div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="http://conference.uawebchallenge.com/img/speakers/gornitska.jpg">
+		      			<h4>Дарья Горницкая</h4>
+		      		«Обучение молодых кадров. Методики и подходы»
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Дарья<br>Горницкая</h5>Генеральный директор Astound Commerce </div>
+	      			</div>
+
+	      			<div class="speaker">
+	      			<div class="prevSpikers">
+		      			<img src="img/speakers/zavilov.jpg">
+		      			<h4>Михаил Завылов</h4>
+		      		«Обучение молодых кадров. Методики и подходы»
+	      			</div>
+	      			<div class="aboutSpiker"><h5>Михаил<br>Завылов</h5>HR-Директор Майкрософт Украина</div>
+	      			</div>
+
+	        </div>
+			<!-- end tab 1 -->
+			
+		</article>
+	</div>
+	<div class="content fh" id="tickets">
+		<article>
+			<div class="side-badge"><img src="img/badge_standard.png" align="right"  id="leftbage"></div>
+			<div class="cost">
+				<h2>БИЛЕТЫ</h2>
+				<hr noshade>
+				<table border="0" class="cost-list">
+					<tbody>
+						<tr class="cl-header">
+							<td>
+								<img src="img/dots.png"><br>
+								Standard<br><br>
+							</td>
+							<td></td>
+							<td >
+								<img src="img/dots_white1.png"><br>
+								Participants<br>UA&nbsp;Web&nbsp;Challenge
+							</td>
+						</tr>
+						
+					
+						<tr id="third-cost">
+							<td><span class="cost-num active">950</span> грн<hr noshade></td>
+							<td><p class="date-cost active">с<br><span>21.05</span></p></td>
+							<td><span class="cost-num active">850</span> грн<hr noshade></td>
+							
+						</tr>
+						<tr>
+							<td><a class="yellow-tb tiket-buy buy">купить билет</a></td>
+							<td></td>
+							<td><a class="white-tb tiket-buy buy">купить билет</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="side-badge">
+				<img src="img/badge_premium.png" id="rBadge">
+				<div class="clr"></div>
+				
+			</div>
+		</article>
+	</div>
+	<div class="content fh" id="gallery">
+		<article>
+			<h2>галерея</h2>
+			<hr noshade>
+			<ul class="albswitcher">
+				<li class="alb1 alb" id="b1">
+					it форум
+				</li>
+				<li class="alb2 alb"  id="b2">
+					зал мероприятия
+				</li>
+			</ul>
+			<div id="alb1" class="alb"></div>
+			<div id="alb2" class="alb"></div>
+			<div class="clr"></div>
+			<a class="whitebtn whitebtn_ru">смотреть все фото</a>
+		</article>
+	</div>
+	<div id="prev">
+		<div class="imgblock">
+			<a id="back"></a>
+			<img />
+			<a id="next"></a>
+			<a id="close"></a>
+		</div>
+	</div>
+	<div id="widget">
+		<iframe src="widget_ru.html" frameborder="0" class="widgetform"></iframe>
+		<!--<a href="http://2event.com/events/188224" target="_blank" class="yellow-btn buy goo">Использовать промо-код</a>-->
+	</div>
+	<div class="content" id="partners" >
+		<article>
+			<h2>партнеры</h2>
+			<hr noshade>
+
+			<h3>Генеральный партнер IT-Форума</h3>
+			<div class="partners-list">
+				<a href="http://www.infopulse.com/" target="_blank"><img style="margin-top:42px;" src="img/partners/infopulse.png"></a>
+			</div>
+
+			
+			<h3>Партнеры IT-Форума</h3>
+			<div class="partners-list">
+				<a href="http://www.microsoft.com/uk-ua/default.aspx" target="_blank"><img style="margin-top:20px;" src="http://conference.uawebchallenge.com/img/partners/MSFT.png"></a>
+				 <a href="http://shalb.com/ru/" target="_blank"><img  style="margin-top:20px;width:100px" src="img/partners/SHALB.png"></a>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="partners-list">
+			<div class="inline">
+			<h3 >Технический партнер</h3>
+				<a href="http://rentall.in.ua/" target="_blank"><img src="img/partners/rentall.png"></a>
+			</div>
+			<div class="inline">
+				<h3>Молодежный партнер</h3>
+				<a href="http://www.kmcp.kiev.ua/" target="_blank"><img  style="width:140px;margin-top:35px;" src="img/partners/kmun.png"></a>
+				</div>
+			</div>
+			
+			<div class="partners-list">
+				
+			</div>		
+			<h3>Информационные партнеры</h3>
+			<div class="partners-list">
+			<a href="http://growthup.com/ua" target="_blank"><img src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/growup.png"></a>
+			<a href="http://frontender.info/" target="_blank"><img src="img/partners/frontender.png"></a>
+			<a href="http://www.qaclubkiev.com/" target="_blank"><img src="img/partners/qa.png"></a>
+			<a href="http://itexpert.org.ua/" target="_blank"><img style="margin-top:20px;" src="http://conference.uawebchallenge.com/img/partners/it_expert.png"></a>
+			<a href="http://codeguida.com/" target="_blank"><img style="margin-top:20px; width:120px;" src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/codeguida.jpg"></a>
+		    <a href="http://geekslab.co/" target="_blank"><img src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/GeeksLab_logo_blue_no-shado.png"></a>
+		    <a href="https://vk.com/itkpi" target="_blank"><img src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/IT%20KPI.png"></a>
+		    <a href="https://vk.com/kpi_live" target="_blank"><img src="http://conference.uawebchallenge.com/img/partners/kpilive.png"></a>
+		   
+		    <a href="https://vk.com/seclubjoin" target="_blank"><img src="http://conference.uawebchallenge.com/img/partners/selogo_color.png"></a>
+		    <a href="https://vk.com/proger_baby" target="_blank"><img src="http://conference.uawebchallenge.com/img/partners/sinpr.jpeg"></a>	
+	
+		    <a href="http://ko.com.ua/" target="_blank"><img style="margin-top:40px;" src="http://uawebchallenge.com/public/design/img/logo/ko.png"></a>
+            <a href="http://itvdn.com/ru" target="_blank"><img style="width:120px; margin-top:20px;"  src="http://uawebchallenge.com/public/files/js/ckfinder/userfiles/images/ITVDN(ColorBlackText).png"></a>
+            <a href="http://kiev.itstep.org/" target="_blank"><img style="margin-top:30px;" src="http://uawebchallenge.com/public/design/img/logo/itstep.png"></a>
+            <a href="http://www.weblancer.net/" target="_blank"><img  style="margin-top:30px;" src="http://uawebchallenge.com/public/design/img/logo/weblancer.png"></a>
+			<a href="http://it-catalogue.net/index.php?lang=ru" target="_blank"><img  style="margin-top:20px;" src="http://uawebchallenge.com/public/design/img/logo/Catalogue_Logo.png"></a>
+			<a href="http://www.webdesignmagazine.ru/" target="_blank"><img  style="margin-top:30px;" src="http://uawebchallenge.com/public/design/img/logo/web_design_magazine.png"></a>
+			<a href="http://www.itechnology.org.ua/" target="_blank"><img  style="width:100px;margin-top:10px;" src="http://uawebchallenge.com/public/design/img/logo/itechnology.png"></a>
+			<a href="http://iteducate.com.ua/" target="_blank"><img  style="width:100px;" src="http://conference.uawebchallenge.com/img/partners/itea.png"></a>	
+				
+
+			</div>
+			
+		</article>
+	</div>
+	<div id="contacts" class="content" style="width: 100%; min-width: 1000px; height: 100%;"></div>
+	<footer>
+		<ul>
+			<li><a href="http://uawebchallenge.com" target="_blank">WebChallenge</a></li>
+			<li></li>
+			<li>
+				<a href="https://twitter.com/uawebchallenge" target="_blank" id="tw"></a>
+				<a href="https://vk.com/uawebchallenge" target="_blank" id="vk"></a>
+				<a href="https://www.facebook.com/uawebchallenge" target="_blank" id="fb"></a>
+			</li>
+		</ul>
+	</footer>
+	<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1009270801;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1009270801/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</body>
+</html>
